@@ -2,16 +2,78 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <title>Dan's Shopping List</title>
 </head>
 <body>
     <header class="title">
-        
+        <h1>Dan's Shopping List</h1>
     </header>
     <section class="main">
-        <div class="instruct"></div>
-        <div class="input"></div>
-        <div class="output"></div>
+        <div class="input">
+  			<div class="col-md-4">
+  				<input type="text" class="form-control" placeholder="Enter List Item">
+  			</div>
+  			<div class="col-md-4">
+  				<select class="form-control">
+  					<option>Produce</option>
+  					<option>Dairy</option>
+  					<option>Meat & Poultry</option>
+  					<option>Bakery</option>
+  					<option>Hygiene</option>
+  					<option>Other</option>
+				</select>
+			</div>
+  			<div class="col-md-4">
+  				<button type="button" class="button">Enter</button>
+  			</div>
+		</div>
+        <div class="output">
+        	<div class="col-md-6"><h5>Produce</h5> 
+        		<ul>
+        			<li>Apples</li>
+      				<li>Lettuce</li>
+      				<li>Tomatoes</li>
+        		</ul>
+        	</div>
+  			<div class="col-md-6"><h5>Dairy</h5> 
+  				<ul>
+  					<li>Milk</li>
+  					<li>Sour Cream</li>
+  					<li>Cheese</li>
+  				</ul>
+  			</div>
+    		<div class="col-md-6"><h5>Meat & Poultry</h5> 
+    			<ul>
+    				<li>Chicken</li>
+    				<li>Ground Beef</li>
+    				<li>Bacon</li>
+    			</ul>
+    		</div>
+  			<div class="col-md-6"><h5>Bakery</h5> 
+  				<ul>
+  					<li>Bread</li>
+  					<li>Tortillas</li>
+  					<li>Bagels</li>
+  				</ul>
+  			</div>
+    		<div class="col-md-6"><h5>Hygiene</h5> 
+    			<ul>
+    				<li>Shampoo</li>
+    				<li>Soap</li>
+    				<li>Toilet Paper</li>
+    			</ul>
+    		</div>
+  			<div class="col-md-6"><h5>Other</h5> 
+  				<ul>
+  					<li>Curry</li>
+  					<li>Pasta</li>
+  					<li>Frozen Corn</li>
+  				</ul>
+  			</div>
+        </div>
     </section>
 </body>
 </html>
