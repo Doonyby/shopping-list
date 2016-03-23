@@ -6,6 +6,8 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Philosopher:400,700|Muli:400,300' rel='stylesheet' type='text/css'>
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="js/app.js"></script>
     <title>Dan's Shopping List</title>
 </head>
 <body>
@@ -23,12 +25,12 @@
         </div>
         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <select class="form-control">
-            <option>Produce</option>
-            <option>Dairy</option>
-            <option>Meat & Poultry</option>
-            <option>Bakery</option>
-            <option>Hygiene</option>
-            <option>Other</option>    
+            <option id="produce">Produce</option>
+            <option id="dairy">Dairy</option>
+            <option id="meat & poultry">Meat & Poultry</option>
+            <option id="bakery">Bakery</option>
+            <option id="hygiene">Hygiene</option>
+            <option id="other">Other</option>    
           </select>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
@@ -39,7 +41,7 @@
  
     <div class="row">        
       <div class="col-lg-4 col-lg-offset-2 col-sm-6 col-xs-12 output"><h5>Produce</h5> 
-        <ul>
+        <ul class="produce-list">
           <li><input class="done" type="checkbox">Apples<button class="remove">x</button></li>
           <li><input class="done" type="checkbox">Lettuce<button class="remove">x</button></li>
           <li><input class="done" type="checkbox">Tomatoes<button class="remove">x</button></li>
