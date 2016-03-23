@@ -7,7 +7,7 @@ html {
 }
 
 div {
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 }
 
 body {
@@ -33,6 +33,10 @@ section {
 	font-family: 'Muli', sans-serif;
 }
 
+.input {
+	margin-bottom: 5em;
+}
+
 .form-control {
 	text-align: center;
 }
@@ -42,6 +46,7 @@ section {
 	height: 18em;
 	background-color: white;
 	border-radius: 10px;
+	border: 1px solid black;
 }
 
 .input > div {
@@ -55,10 +60,13 @@ ul {
 
 li {
 	padding: .25em 0 0 0;
+	text-align: center;
 }
 
 h5 {
 	text-decoration: underline;
+	text-align: center;
+	padding-top: 1em;
 }
 
 .done {
@@ -73,9 +81,5 @@ h5 {
 	margin: .3em 0 0 0;
 	padding: 0 0 2px 0;
 	line-height: 0px;
-}
-
-.button:active {
-	opacity: 50%;
 }
 
