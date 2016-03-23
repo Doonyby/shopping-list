@@ -19,7 +19,6 @@ body {
 
 .title {
 	text-align: center;
-	width: 100%;
 	padding: 1em 1em;
 	margin-bottom: 1em;
 	font-family:'Philosopher', sans-serif;
@@ -30,10 +29,7 @@ body {
 }
 
 section {
-	margin: 0 auto 4em auto;
-	width: 60%;
 	text-align: center;
-	padding: 0 0 2em 0;
 	font-family: 'Muli', sans-serif;
 }
 
@@ -41,32 +37,15 @@ section {
 	text-align: center;
 }
 
-
 .output {
-	width: 50%;
-	text-align: center;
-	margin: 0 auto;
 	font-family: 'Muli', sans-serif;
-}
-
-.output > div {
 	height: 18em;
 	background-color: white;
-	margin: ;
 	border-radius: 10px;
-
 }
 
 .input > div {
 	height: 3em;
-}
-
-.button {
-	height: 2.45em;
-	width: 100%;
-	border-radius: 5px;
-	background-color: black;
-	color: white;
 }
 
 ul {
@@ -95,6 +74,7 @@ h5 {
 	padding: 0 0 2px 0;
 	line-height: 0px;
 }
+
 .button:active {
 	opacity: 50%;
 }
