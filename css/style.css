@@ -13,7 +13,7 @@ div {
 body {
 	background-image: url(https://blog.mint.com/wp-content/uploads/2013/10/Grocery-Store-Savings-You-Might-Be-Missing.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100% 100%;
 	opacity: 70%;
 }
 
@@ -22,6 +22,11 @@ body {
 	width: 100%;
 	padding: 1em 1em;
 	margin-bottom: 1em;
+	font-family:'Philosopher', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: white;
+	text-shadow: 2px 2px black;
 }
 
 section {
@@ -29,24 +34,27 @@ section {
 	width: 60%;
 	text-align: center;
 	padding: 0 0 2em 0;
+	font-family: 'Muli', sans-serif;
 }
 
 .form-control {
 	text-align: center;
 }
 
-.control {
-	text-align: center;
-}
 
 .output {
 	width: 50%;
 	text-align: center;
 	margin: 0 auto;
+	font-family: 'Muli', sans-serif;
 }
 
 .output > div {
-	height: 16em;
+	height: 18em;
+	background-color: white;
+	margin: ;
+	border-radius: 10px;
+
 }
 
 .input > div {
@@ -68,6 +76,10 @@ ul {
 
 li {
 	padding: .25em 0 0 0;
+}
+
+h5 {
+	text-decoration: underline;
 }
 
 .done {
