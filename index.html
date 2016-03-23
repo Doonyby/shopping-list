@@ -9,70 +9,85 @@
     <title>Dan's Shopping List</title>
 </head>
 <body>
-  <header class="title">
-      <h1>Dan's Shopping List</h1>
-  </header>
-  <section class="input">
-    <div class="col-md-4">
-      <input type="text" class="form-control" placeholder="Enter List Item">
+  <div class="container">
+    <div class="row">
+      <header class="title">
+          <h1>Dan's Shopping List</h1>
+      </header>
     </div>
-    <div class="col-md-4">
-      <select class="form-control">
-        <option>Produce</option>
-        <option>Dairy</option>
-        <option>Meat & Poultry</option>
-        <option>Bakery</option>
-        <option>Hygiene</option>
-        <option>Other</option>    
-      </select>
+
+    <div class="row">
+      <section class="input">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <input type="text" class="form-control" placeholder="Enter List Item">
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <select class="form-control">
+            <option>Produce</option>
+            <option>Dairy</option>
+            <option>Meat & Poultry</option>
+            <option>Bakery</option>
+            <option>Hygiene</option>
+            <option>Other</option>    
+          </select>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <button class="btn btn-primary btn-block">Enter</button>
+        </div>
+      </section>
     </div>
-    <div class="col-md-4">
-      <button type="button" class="button">Enter</button>
+ 
+    <div class="row">        
+      <div class="col-lg-4 col-lg-offset-2 col-sm-6 col-xs-12 output"><h5>Produce</h5> 
+        <ul>
+          <li><input class="done" type="checkbox">Apples<button class="remove">x</button></li>
+          <li><input class="done" type="checkbox">Lettuce<button class="remove">x</button></li>
+          <li><input class="done" type="checkbox">Tomatoes<button class="remove">x</button></li>
+        </ul>
+      </div> 
+      <div class="col-lg-4 col-sm-6 col-xs-12 output"><h5>Dairy</h5> 
+        <ul>
+          <li><input class="done" type="checkbox">Milk<button class="remove">x</button></li>
+          <li><input class="done" type="checkbox">Sour Cream<button class="remove">x</button></li>
+          <li><input class="done" type="checkbox">Cheese<button class="remove">x</button></li>
+        </ul>
+      </div>
     </div>
-  </section>
-  <section class="output">  
-    <div class="col-md-6"><h5>Produce</h5> 
-      <ul>
-        <li><input class="done" type="checkbox">Apples<button class="remove">x</button></li>
-        <li><input class="done" type="checkbox">Lettuce<button class="remove">x</button></li>
-        <li><input class="done" type="checkbox">Tomatoes<button class="remove">x</button></li>
-      </ul>
+
+    <div class="row">
+      <div class="col-lg-4 col-lg-offset-2 col-sm-6 col-xs-12 output"><h5>Meat & Poultry</h5> 
+        <ul>
+          <li><input class="done" type="checkbox">Chicken<button class="remove">x</button></li>
+          <li><input class="done" type="checkbox">Ground Beef<button class="remove">x</button></li>
+          <li><input class="done" type="checkbox">Bacon<button class="remove">x</button></li>
+        </ul>
+      </div>
+      <div class="col-lg-4 col-sm-6 col-xs-12 output"><h5>Bakery</h5> 
+        <ul>
+          <li><input class="done" type="checkbox">Bread<button class="remove">x</button></li>
+          <li><input class="done" type="checkbox">Tortillas<button class="remove">x</button></li>
+          <li><input class="done" type="checkbox">Bagels<button class="remove">x</button></li>
+        </ul>
+      </div>
     </div>
-    <div class="col-md-6"><h5>Dairy</h5> 
-      <ul>
-        <li><input class="done" type="checkbox">Milk<button class="remove">x</button></li>
-        <li><input class="done" type="checkbox">Sour Cream<button class="remove">x</button></li>
-        <li><input class="done" type="checkbox">Cheese<button class="remove">x</button></li>
-      </ul>
+
+    <div class="row">      
+      <div class="col-lg-4 col-lg-offset-2 col-sm-6 col-xs-12 output"><h5>Hygiene</h5> 
+        <ul>
+          <li><input class="done" type="checkbox">Shampoo<button class="remove">x</button></li>
+          <li><input class="done" type="checkbox">Soap<button class="remove">x</button></li>
+          <li><input class="done" type="checkbox">Toilet Pape<button class="remove">x</button>r</li>
+        </ul>
+      </div>
+      <div class="col-lg-4 col-sm-6 col-xs-12 output"><h5>Other</h5> 
+        <ul>
+          <li><input class="done" type="checkbox">Curry<button class="remove">x</button></li>
+          <li><input class="done" type="checkbox">Pasta<button class="remove">x</button></li>
+          <li><input class="done" type="checkbox">Frozen Corn<button class="remove">x</button></li>
+        </ul>
+      </div>
+
     </div>
-    <div class="col-md-6"><h5>Meat & Poultry</h5> 
-      <ul>
-        <li><input class="done" type="checkbox">Chicken<button class="remove">x</button></li>
-        <li><input class="done" type="checkbox">Ground Beef<button class="remove">x</button></li>
-        <li><input class="done" type="checkbox">Bacon<button class="remove">x</button></li>
-      </ul>
-    </div>
-    <div class="col-md-6"><h5>Bakery</h5> 
-      <ul>
-        <li><input class="done" type="checkbox">Bread<button class="remove">x</button></li>
-        <li><input class="done" type="checkbox">Tortillas<button class="remove">x</button></li>
-        <li><input class="done" type="checkbox">Bagels<button class="remove">x</button></li>
-      </ul>
-    </div>
-    <div class="col-md-6"><h5>Hygiene</h5> 
-      <ul>
-        <li><input class="done" type="checkbox">Shampoo<button class="remove">x</button></li>
-        <li><input class="done" type="checkbox">Soap<button class="remove">x</button></li>
-        <li><input class="done" type="checkbox">Toilet Pape<button class="remove">x</button>r</li>
-      </ul>
-    </div>
-    <div class="col-md-6"><h5>Other</h5> 
-      <ul>
-        <li><input class="done" type="checkbox">Curry<button class="remove">x</button></li>
-        <li><input class="done" type="checkbox">Pasta<button class="remove">x</button></li>
-        <li><input class="done" type="checkbox">Frozen Corn<button class="remove">x</button></li>
-      </ul>
-    </div>
-  </section>
+  </div>
 </body>
 </html>
