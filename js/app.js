@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $('.btn').click(function (){
-    	$( ".produce-list" ).append("<li>produce</li>");
+    	$( ".produce-list" ).prepend("<li>produce</li>");
 
     	//console.log("button has been hit!");
     });
@@ -15,6 +15,6 @@ $(document).ready(function () {
 
 
     $('.remove').click(function () {
-    	$('li').fadeOut(1000);
+    	$(this).fadeOut(1000);
     })
 });
