@@ -21,7 +21,7 @@
     <div class="row">
       <section class="input">
         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-          <input type="text" class="form-control" placeholder="Enter List Item">
+          <input type="text" id="item" class="form-control" placeholder="Enter List Item">
         </div>
         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <select class="form-control">
@@ -34,7 +34,7 @@
           </select>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-          <button class="btn btn-primary btn-block">Enter</button>
+          <button id="enterItem" class="btn btn-primary btn-block">Enter</button>
         </div>
       </section>
     </div>
@@ -42,7 +42,7 @@
     <div class="row">        
       <div class="col-lg-4 col-lg-offset-2 col-sm-6 col-xs-12 output"><h5>Produce</h5> 
         <ul class="produce-list">
-          <li><input class="done" type="checkbox">Apples<button class="remove">x</button></li>
+          <li><input class="done" type="checkbox"><span>Apples</span><button class="remove">x</button></li>
           <li><input class="done" type="checkbox">Lettuce<button class="remove">x</button></li>
           <li><input class="done" type="checkbox">Tomatoes<button class="remove">x</button></li>
         </ul>
@@ -59,7 +59,11 @@
     <div class="row">
       <div class="col-lg-4 col-lg-offset-2 col-sm-6 col-xs-12 output"><h5>Meat & Poultry</h5> 
         <ul>
-          <li><input class="done" type="checkbox">Chicken<button class="remove">x</button></li>
+          <li>
+            <input class="done" type="checkbox">
+            <span>Chicken</span>
+            <button class="remove">x</button>
+          </li>
           <li><input class="done" type="checkbox">Ground Beef<button class="remove">x</button></li>
           <li><input class="done" type="checkbox">Bacon<button class="remove">x</button></li>
         </ul>
