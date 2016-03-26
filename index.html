@@ -20,18 +20,18 @@
 
     <div class="row">
       <section class="input">
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <div class="dcol-lg-4 col-md-4 col-sm-6 col-xs-12">
           <input type="text" id="item" class="form-control" placeholder="Enter List Item">
         </div>
         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-          <select class="form-control">
-            <option id="select">Please Select Department</option>
-            <option id="produce">Produce</option>
-            <option id="dairy">Dairy</option>
-            <option id="meatpoultry">Meat & Poultry</option>
-            <option id="bakery">Bakery</option>
-            <option id="hygiene">Hygiene</option>
-            <option id="other">Other</option>    
+          <select class="form-control" id="category">
+            <option value="select">Please Select Department</option>
+            <option value="produce">Produce</option>
+            <option value="dairy">Dairy</option>
+            <option value="meatpoultry">Meat & Poultry</option>
+            <option value="bakery">Bakery</option>
+            <option value="hygiene">Hygiene</option>
+            <option value="other">Other</option>    
           </select>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
@@ -40,16 +40,38 @@
       </section>
     </div>
  
-    <div class="row">        
-      <div class="col-lg-4 col-lg-offset-2 col-sm-6 col-xs-12 output"><h5>Produce</h5> 
-        <ul class="produce-list">
-          
-        </ul>
-      </div> 
-      <div class="col-lg-4 col-sm-6 col-xs-12 output"><h5>Dairy</h5>
-        <ul class="dairy-list">
-         
-        </ul>
+<!-- 
+<div class="panel panel-default">
+  <div class="panel-heading">Panel heading without title</div>
+  <div class="panel-body">
+    Panel content
+  </div>
+</div>
+ -->
+
+
+    <div class="row">    
+      <div class="col-lg-4 col-lg-offset-2 col-sm-6 col-xs-12">    
+        <div class="panel panel-info output">
+          <div class="panel-heading">Produce</div>
+          <div class="panel-body">
+            <ul class="list produce-list">
+            
+            </ul>
+          </div> 
+        </div>
+      </div>
+      <div>
+        <div class="col-lg-4 col-sm-6 col-xs-12">
+          <div class="panel panel-info output">
+            <div class="panel-heading">Dairy</div>
+            <div class="panel-body">
+              <ul class="dairy-list">
+               
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 

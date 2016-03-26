@@ -1,16 +1,15 @@
 $(document).ready(function() {
     $('#enterItem').click(function(){       
       var item = $('#item').val();
+      var category = "." + $('#category').val() + "-list";
+
       var entry = '<li><input class="done" type="checkbox"><span>' + item + '</span>' + 
                   '<button type="button" class="btn btn-danger btn-xs remove">X</button></li>';
       
-
-      $('.produce-list').prepend(entry);
+      $(category).prepend(entry);
       $('#item').val('');
-    
-      
-      
-      
+      $('#category').val('select');
+          
     }); 
     
 
