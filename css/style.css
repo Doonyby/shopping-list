@@ -44,9 +44,6 @@ section {
 .output {
 	font-family: 'Muli', sans-serif;
 	height: 18em;
-	background-color: white;
-	border-radius: 10px;
-	border: 1px solid black;
 }
 
 .input > div {
@@ -63,11 +60,11 @@ li {
 	text-align: center;
 }
 
-h5 {
+/*h5 {
 	text-decoration: underline;
 	text-align: center;
 	padding-top: 1em;
-}
+}*/
 
 .done {
 	float: left;
