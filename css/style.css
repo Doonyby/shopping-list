@@ -6,15 +6,10 @@ html {
 	box-sizing: inherit;
 }
 
-div {
-	/*border: 1px solid black;*/
-}
-
 body {
 	background-image: url(https://blog.mint.com/wp-content/uploads/2013/10/Grocery-Store-Savings-You-Might-Be-Missing.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	opacity: 70%;
 }
 
 .title {
@@ -44,6 +39,7 @@ section {
 .output {
 	font-family: 'Muli', sans-serif;
 	height: 18em;
+	overflow-y: auto;
 }
 
 .input > div {
@@ -60,11 +56,9 @@ li {
 	text-align: center;
 }
 
-/*h5 {
-	text-decoration: underline;
+.panel-heading {
 	text-align: center;
-	padding-top: 1em;
-}*/
+}
 
 .done {
 	float: left;
